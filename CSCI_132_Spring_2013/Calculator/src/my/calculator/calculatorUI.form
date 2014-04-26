@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="output" alignment="0" max="32767" attributes="0"/>
+                  <Component id="input" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="deletebut" min="-2" pref="121" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="openparanbut" max="32767" attributes="0"/>
+                                  <Component id="closeparanbut" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="fourbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fivebut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sixbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="multiplybut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="clearexisting" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="onebut" min="-2" pref="40" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="twobut" min="-2" pref="40" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="zerobut" min="-2" pref="86" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="threebut" min="-2" pref="40" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="subtractbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="decpointbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="addbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="equalsbut" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="sevenbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="eightbut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ninebut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="devidebut" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="clearall" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="input" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="output" min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="openparanbut" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="closeparanbut" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sevenbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="eightbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="ninebut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="devidebut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="clearall" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fourbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="fivebut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="sixbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="multiplybut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="clearexisting" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="equalsbut" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="threebut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="twobut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="onebut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="subtractbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="decpointbut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="zerobut" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="11" max="32767" attributes="0"/>
+              <Component id="deletebut" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JButton" name="zerobut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="zerobutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="decpointbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="."/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="decpointbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="addbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="addbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="equalsbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="equalsbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="twobut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="twobutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="onebut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="onebutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="threebut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="threebutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="subtractbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="subtractbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="fourbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fourbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="fivebut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fivebutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sixbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sixbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="multiplybut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="multiplybutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sevenbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sevenbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="eightbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="eightbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ninebut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ninebutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="devidebut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="devidebutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clearexisting">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="clearexistingMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clearall">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="clearallMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="output">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="input">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="openparanbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="("/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="openparanbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="closeparanbut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=")"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="closeparanbutMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deletebut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;-- Backup One"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="deletebutMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

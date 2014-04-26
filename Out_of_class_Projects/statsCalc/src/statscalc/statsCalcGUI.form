@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="237" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rangeLbl" min="-2" pref="238" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="Q1Lbl" min="-2" pref="238" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="lowOutTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="lowOutLbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rangeTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="IRQLbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="IQRTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="stdDevLbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="stdDevTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="upOutLbl" alignment="1" min="-2" pref="238" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="upOutTxt" alignment="0" min="-2" pref="238" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Q1Txt" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="medianLbl" max="32767" attributes="0"/>
+                                  <Component id="medianTxt" max="32767" attributes="0"/>
+                                  <Component id="Q3Lbl" max="32767" attributes="0"/>
+                                  <Component id="Q3Txt" max="32767" attributes="0"/>
+                                  <Component id="fiuveNumSumLbl" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="fiveNumSumTxt" max="32767" attributes="0"/>
+                                  <Component id="meanLbl" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="meanTxt" alignment="0" min="-2" pref="238" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="calculate" alignment="0" min="-2" pref="238" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="375" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="resetBut" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="enterDataLbl" min="-2" pref="421" max="-2" attributes="0"/>
+                              <Component id="enterDataTxt" alignment="0" min="-2" pref="238" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane1" pref="236" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="enterDataLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="enterDataTxt" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="calculate" min="-2" max="-2" attributes="0"/>
+                  <Component id="resetBut" min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Q1Lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rangeLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Q1Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rangeTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medianLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="IRQLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medianTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="IQRTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Q3Lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stdDevLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Q3Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stdDevTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fiuveNumSumLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lowOutLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fiveNumSumTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lowOutTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="meanLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="upOutLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="meanTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="upOutTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="90" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="displayDataTxt">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="displayDataTxtFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="displayDataTxtKeyPressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="meanTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="meanTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="medianTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="medianTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Q3Txt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Q3TxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Q1Txt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Q1TxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="meanLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mean (always pulled to skewed side)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="medianLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Median (Q2) middle of the table"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q1Lbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Q1 middle of first 50%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q3Lbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Q3 middle of last 50%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rangeTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rangeTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rangeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Range  (Max - Min)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="enterDataTxt">
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="enterDataTxtFocusGained"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="enterDataTxtKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="enterDataLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter Data Value then hit enter, values can be entered in any order"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="calculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate Everything"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="calculateMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="IQRTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="IRQLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IQR"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="sortedTxt">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="stdDevLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Standard Deviation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="stdDevTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fiveNumSumTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fiuveNumSumLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5 number summary"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lowOutLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lower Outlier"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="upOutLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Upper Outlier"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lowOutTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="upOutTxt">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="resetBut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RESET ALL"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resetButMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

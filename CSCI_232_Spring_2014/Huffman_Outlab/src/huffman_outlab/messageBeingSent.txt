@@ -1,0 +1,19 @@
+Huffman Lab
+
+Today's lab we're going to give your TA a break, he has his Masters Oral exam this Thursday night, he needs a break from school on Friday. So Outlab only this week.
+Huffman Coding
+
+This lab will work on many of the skills we have learned in this class and in 132 and 232. You can use a priority queue, a binary tree, heap, hashtable and a few other tricks. You are to take a text file, compress it using Huffman coding, write out the bits to a file, and then read the bits back in, decompress it and write the text back out to a new file.
+Steps
+
+Read in Text file
+Parse and store the frequency of each letter
+Create a priority Queue
+Use the Huffman Algorithm that I gave in class to create a Huffman tree.
+Create a key for each letter (bits from tree: 1001, 10, 1, 00111, type stuff)
+Compress the file, writing the bits out to a file.
+Read the bits from the file following the tree to decode the letters. You can do this all in one run so you don't have to save your tree to the file, but save all output files so you have proof that the whole system worked, and be able to print your bits for each letter.
+Write the decoded letters back out to a file.
+The original and new files should be identical.
+It took me about an hour to get through the first four steps. The tricky part is step five. 
+The completed lab will be due before lab next Friday.

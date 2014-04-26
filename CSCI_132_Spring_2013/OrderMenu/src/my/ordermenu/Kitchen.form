@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="440" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="1161" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="Customer Order ">
+                  <Font PropertyName="font" name="Aharoni" size="36" style="1"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="extrlbl" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="extslbl" min="-2" pref="104" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="extsclbl" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="decaflbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="decafnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="hottealbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="hotteanumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="coldtealbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="coldteanumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="peachlbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="peachnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lemonlbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="lemonnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="mintlbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="mintnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="coffeelbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="coffeenumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="rblbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="rbnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="pepsilbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="dplbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="mdlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="sierralbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="pmaxlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="ponelbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="pmaxnumlbl" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="ponenumlbl" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="sierranumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="mdnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="dpnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="pepsinumlbl" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Component id="dessertlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="frenchlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="classlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="houselbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="tbonelbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel80" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="classnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="frenchnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="tbonenumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="caesarlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="sbarlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="daysouplbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="bsouplbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="bsoupnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="daysoupnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="sbarnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="caesarnumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                              <Component id="clamlbl" min="-2" pref="82" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="clamnumlbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                              <Component id="entreelbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="hfslbl" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="vanlbl" max="32767" attributes="0"/>
+                                                  <Component id="chscakelbl" pref="95" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="hfsnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="chscakenumlbl" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="vannumlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="banslbl" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ciclbl" alignment="0" pref="110" max="32767" attributes="0"/>
+                                                  <Component id="rbflbl" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="rbfnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="bansnumlbl" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="cicnumlbl" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="whichtable" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="tablelbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                              <Component id="whichsection" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                              <Component id="sectionlbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="bufflbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="sautmushlbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="nacholbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="samplelbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="cwslbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                          <Component id="fflbl" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Component id="applbl" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="drinkslbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane3" alignment="0" min="-2" pref="341" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="344" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="331" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                              <Component id="customerrequestlbl" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="whichtable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tablelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="whichsection" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sectionlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="drinkslbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="coffeelbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="coffeenumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="decaflbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="decafnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="hottealbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="hotteanumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="coldtealbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="coldteanumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="peachlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="peachnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lemonlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="lemonnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="mintlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="mintnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="pepsilbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="pepsinumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dplbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="dpnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="mdlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="mdnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sierralbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="sierranumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="pmaxlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="pmaxnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="ponelbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="ponenumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="rblbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="rbnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="applbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="nacholbl" min="-2" pref="19" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bufflbl" min="-2" pref="19" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sautmushlbl" min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="samplelbl" min="-2" pref="19" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cwslbl" min="-2" pref="19" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fflbl" min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="extrlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="extslbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="extsclbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="customerrequestlbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="entreelbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tbonelbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="tbonenumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="frenchlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="frenchnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="classlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="classnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="houselbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="jLabel80" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="caesarlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="caesarnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sbarlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="sbarnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="daysouplbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="daysoupnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bsouplbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="bsoupnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="clamlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="clamnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="dessertlbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chscakelbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="chscakenumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ciclbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="cicnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="hfslbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="hfsnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="banslbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="bansnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vanlbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="vannumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbflbl" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="rbfnumlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="111" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="whichtable">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="This Order is from Table:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tablelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="_____"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="whichsection">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="In Section:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sectionlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="_____"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="drinkslbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="The Customer would like the following drinks:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="applbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="The Customer would like the following Appetizers:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="entreelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="The Customer would like the following Entre&#xe8;s:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dessertlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="The Customer would like the following Dessert&apos;s:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="coffeelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="decaflbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="hottealbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="coldtealbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="peachlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lemonlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mintlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pmaxlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ponelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rblbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dplbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mdlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sierralbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pepsilbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="coffeenumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="decafnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="hotteanumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="coldteanumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="peachnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lemonnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mintnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cwslbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="samplelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fflbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="extslbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="extsclbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bufflbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sautmushlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="extrlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nacholbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sbarlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="daysouplbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="caesarlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bsouplbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tbonelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="houselbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="classlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="frenchlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="clamlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="hfslbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-----------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vanlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-----------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="chscakelbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-----------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="banslbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---------------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rbflbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---------------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ciclbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---------------------------"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ponenumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rbnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pmaxnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mdnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sierranumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dpnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pepsinumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tbonenumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="frenchnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel80">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="classnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="caesarnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sbarnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bsoupnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="daysoupnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="clamnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="chscakenumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="hfsnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vannumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cicnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bansnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rbfnumlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="---"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="request1lbl">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="customerrequestlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="The customer has these appetizer requests:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="request2lbl">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="The Customer has these Special requests for their main course:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Next Order"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jToggleButton1MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
