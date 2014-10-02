@@ -14,21 +14,22 @@ import java.awt.event.*;
 @SuppressWarnings("serial")
 public class game_gui extends JFrame {
 
-    private JLabel ai_lbl;
-    private static JProgressBar ai_progress_bar;
-    private JPanel ai_thinking_quit_panel;
-    private static JButton ai_v_ai_but;
-    private static JButton ai_v_human_but;
-    private static JPanel game_board_panel;
-    private static JTextArea game_state_display;
-    private JLabel game_state_lbl;
-    private JPanel game_state_panel;
-    private JScrollPane game_state_scrollpane;
-    private static JButton human_v_ai_but;
-    private static JButton human_v_human_but;
-    private JPanel options_panel;
-    private static JButton play_again_but;
-    private static JButton quit_but;  
+    private JLabel ai_lbl;                        /* Label */
+    private static JProgressBar ai_progress_bar;  /* AI progress bar */
+    private JPanel ai_thinking_quit_panel;        /* Panel for ai elements */
+    private static JButton ai_v_ai_but;           /* Button for game mode */
+    private static JButton ai_v_human_but;        /* Button for game mode */
+    private static JButton human_v_ai_but;        /* Button for game mode */
+    private static JButton human_v_human_but;     /* Button for game mode */
+    private static JPanel game_board_panel;       /* Display of the board */
+    private static JTextArea game_state_display;  /* Text area */
+    private JLabel game_state_lbl;                /* Label for Text area*/
+    private JPanel game_state_panel;              /* Panel for state elements */
+    private JScrollPane game_state_scrollpane;    /* Scroll pane, Long game */
+
+    private JPanel options_panel;                 /* Panel for quit/replay */
+    private static JButton play_again_but;        /* Button for replay */
+    private static JButton quit_but;              /* Button for quit */
     
     public game_gui() {
         initComponents();
@@ -169,7 +170,7 @@ public class game_gui extends JFrame {
 
         ai_progress_bar.setFocusable(false);
 
-        ai_lbl.setText("                    AI thinking...");
+        ai_lbl.setText("            AI thinking...");
 
         play_again_but.setText("Play Again");
         play_again_but.setPreferredSize(new java.awt.Dimension(53, 23));
@@ -356,7 +357,7 @@ public class game_gui extends JFrame {
         Point a = game_board_panel.getMousePosition();
         int x = (int) a.getX();
         int y = (int) a.getY();
-        System.out.println("x,y coordinate: " + x + ", " + y + " ");
+        game_state_display.setText("x,y coordinate: " + x + ", " + y + " ");
         paint_board(game_board_panel.getGraphics());
     }
 
