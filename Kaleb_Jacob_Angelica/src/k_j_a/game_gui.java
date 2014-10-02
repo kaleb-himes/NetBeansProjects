@@ -330,18 +330,28 @@ public class game_gui extends JFrame {
      * down, left, right, these coordinates are the center of the legal location
      *   
      *    Starting between Quadrant 1 and 2 on the verticle "NORTH" Line and
-     *    moving clockwise around the circle
-     * (250,25)(250,75)(250,125)(250,175)(355,50)(331,94)(308,139)(284,183)
-     * (449,146)(406,169)(362,193)(316,215)
-     *    Quadrant One and Four border, inner circle point first) 
-     * (325,250)(375,250)(425,250)(475,250)(317,284)(361,308)(406,332)(450,354)
-     * (284,316)(308,360)(331,404)(354,449)
-     *    Quadrant Four and Three border, inner circle point first)  
-     * (250,325)(250,375)(250,425)(250,475)(215,316)(192,360)(169,405)(146,449)
-     * (184,284)(140,308)(95,330)(50,354)
-     *    Quadrant Three and Two border, inner circle point first 
-     * (175,250)(125,250)(75,250)(25,250)(184,216)(140,192)(95,170)(51,146)
-     * (216,184)(192,139)(169,95)(147,51)  
+     *    moving clockwise around the circle. Always starting on the inner 
+     *    radial circle and going to outter radial circle:
+     *   
+     *    Quadrant One starting at "NORTH" Line
+     *          (250,175)(250,125)(250,75)(250,25)   North Line ->
+     *          (284,183)(308,139)(331,94)(355,50)   Top spoke of Q1
+     *          (316,215)(362,193)(406,169)(449,146) Bottom spoke of Q1
+     *   
+     *    Quadrant Four
+     *          (325,250)(375,250)(425,250)(475,250) East Line
+     *          (317,284)(361,308)(406,332)(450,354) Top spoke of Q4
+     *          (284,316)(308,360)(331,404)(354,449) Bottom spoke of Q4
+     *   
+     *    Quadrant Three
+     *          (250,325)(250,375)(250,425)(250,475) South Line
+     *          (215,316)(192,360)(169,405)(146,449) Bottom spoke of Q3
+     *          (184,284)(140,308)(95,330)(50,354)   TOp spoke of Q3
+     *   
+     *    Quadrant Two 
+     *          (175,250)(125,250)(75,250)(25,250)   West Line
+     *          (184,216)(140,192)(95,170)(51,146)   Bottom spoke of Q2
+     *          (216,184)(192,139)(169,95)(147,51)   Top spoke of Q2
      */
         Point a = game_board_panel.getMousePosition();
         int x = (int) a.getX();
