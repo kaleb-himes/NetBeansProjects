@@ -13,6 +13,7 @@ import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
@@ -125,18 +126,23 @@ public class game_gui extends JFrame {
         k1, k2, k3, k4, l1, l2, l3, l4};
     
     char player = 'X';
+    ClassLoader cl;
     final BufferedImage playerX_img;
     final BufferedImage playerO_img;
     final BufferedImage game_over_img;
-    final String working_dir = System.getProperty("user.dir");
+    private static MouseListener[] m1;
+    private static MouseListener[] m2;
+    private static MouseListener[] m3;
+    private static MouseListener[] m4;
+    private static MouseListener[] m5;
 
     public game_gui() throws IOException {
         this.playerX_img = ImageIO.read(new File
-                                            (working_dir + "/src/k_j_a/X.png"));
+                                            ("resources/X.png"));
         this.playerO_img = ImageIO.read(new File
-                                            (working_dir + "/src/k_j_a/O.png"));
+                                            ("resources/O.png"));
         this.game_over_img = ImageIO.read(new File
-                                    (working_dir + "/src/k_j_a/game_over.png"));
+                                    ("resources/game_over.png"));
         initComponents();
     }
 
@@ -455,6 +461,10 @@ public class game_gui extends JFrame {
         for (int i = 0; i < legal_moves.length; i++){
             legal_moves[i][2] = 0;
         }
+        Graphics g = game_board_panel.getGraphics();
+        game_board_panel.paint(g);
+        g.setColor(Color.LIGHT_GRAY);
+        game_board_panel.repaint();
         set_all_focusable();
         
     }
@@ -518,7 +528,12 @@ public class game_gui extends JFrame {
                 if (tie == 48){
                     Graphics g = game_board_panel.getGraphics();
                     g.drawImage(game_over_img, i, i, this);
-                    play_again_but.setEnabled(true);
+                    /* Activate play again button*/
+                    play_again_but.setEnabled(true);  
+                    /* And turn on the mouse listeners so user can click it */
+                    for(int j = 0; j < m5.length; j++){
+                        play_again_but.addMouseListener(m5[j]);
+                    }
                 }
             }
         }
@@ -567,30 +582,57 @@ public class game_gui extends JFrame {
         g.drawLine(175, 250, 25, 250);
     }
 
-    protected static void reset_board(Graphics g) {
-        int gbh = game_board_panel.getHeight();
-        int gbw = game_board_panel.getWidth();
-        game_board_panel.paint(g);
-        g.setColor(Color.white);
-        g.fillOval(gbw / 5, gbh / 5, gbw, gbh);
-        paint_board(game_board_panel.getGraphics());
-    }
-
     protected static void set_all_non_focusable() {
+        /* set buttons to appear inactive */
         ai_v_ai_but.setEnabled(false);
         human_v_human_but.setEnabled(false);
         ai_v_human_but.setEnabled(false);
         human_v_ai_but.setEnabled(false);
-        /* We will need to set this true in the event of a win state */
         play_again_but.setEnabled(false);
+        
+        /* turn off all the mouselisteners for these buttons */
+        for(int i = 0; i < m1.length; i++){
+            ai_v_ai_but.removeMouseListener(m1[i]);
+        }
+        
+        for(int i = 0; i < m2.length; i++){
+            human_v_human_but.removeMouseListener(m2[i]);
+        }
+        
+        for(int i = 0; i < m3.length; i++){
+            ai_v_human_but.removeMouseListener(m3[i]);
+        }
+       
+        for(int i = 0; i < m4.length; i++){
+            human_v_ai_but.removeMouseListener(m4[i]);
+        }
+        
+        for(int i = 0; i < m5.length; i++){
+            play_again_but.removeMouseListener(m5[i]);
+        }
     }
     protected static void set_all_focusable() {
         ai_v_ai_but.setEnabled(true);
         human_v_human_but.setEnabled(true);
         ai_v_human_but.setEnabled(true);
         human_v_ai_but.setEnabled(true);
-        /* We will need to set this true in the event of a win state */
-        play_again_but.setEnabled(true);
+       
+        /* Turn the mouse listeners back on */
+        for(int i = 0; i < m1.length; i++) {   
+            ai_v_ai_but.addMouseListener(m1[i]);
+        }
+        
+        for(int i = 0; i < m2.length; i++){
+            human_v_human_but.addMouseListener(m2[i]);
+        }
+        
+        for(int i = 0; i < m3.length; i++){
+            ai_v_human_but.addMouseListener(m3[i]);
+        }
+        
+        for(int i = 0; i < m4.length; i++){
+            human_v_ai_but.addMouseListener(m4[i]);
+        }
     }
 
     public static void main(String args[]) {
@@ -598,8 +640,15 @@ public class game_gui extends JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
+
                 try {
                     new game_gui().setVisible(true);
+                /* store mouselisteners in predefined arrays see variable section */
+                m1 = ai_v_ai_but.getMouseListeners();
+                m2 = human_v_human_but.getMouseListeners();
+                m3 = ai_v_human_but.getMouseListeners();
+                m4 = human_v_ai_but.getMouseListeners();
+                m5 = play_again_but.getMouseListeners();
                 } catch (IOException ex) {
                     Logger.getLogger(game_gui.class.getName()).log(Level.SEVERE, null, ex);
                 }
