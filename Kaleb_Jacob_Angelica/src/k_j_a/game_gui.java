@@ -133,11 +133,11 @@ public class game_gui extends JFrame {
     public game_gui() throws IOException {
         System.out.println("WORKING_DIR = " + working_dir);
         this.playerX_img = ImageIO.read(new File
-                                            (working_dir + "/src/k_j_a/X.png"));
+                                            (working_dir + "/resources/X.png"));
         this.playerO_img = ImageIO.read(new File
-                                            (working_dir + "/src/k_j_a/O.png"));
+                                            (working_dir + "/resources/O.png"));
         this.game_over_img = ImageIO.read(new File
-                                    (working_dir + "/src/k_j_a/game_over.png"));
+                                    (working_dir + "/resources/game_over.png"));
         initComponents();
     }
 
