@@ -26,7 +26,7 @@ public class UniqueSingleton {
   private UniqueSingleton() {
   }
   
-  public static synchronized UniqueSingleton lookup(String name) {
+  public final static synchronized UniqueSingleton lookup(String name) {
     
     UniqueSingleton instance = null;
     
@@ -42,7 +42,7 @@ public class UniqueSingleton {
     return instance;
   }
   
-  public static void registerSingleton(String name){
+  public final static void registerSingleton(String name){
       if (UniqueSingleton.lookup(name) == null){
         UniqueSingleton s = new UniqueSingleton();
         s.name = name;
