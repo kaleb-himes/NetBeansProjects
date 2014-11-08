@@ -1,0 +1,26 @@
+Enter the number of Singletons to register:
+5
+Enter a name for the new Singleton
+kaleb
+Singleton was not found,
+Registering Singleton "kaleb" now.
+Enter a name for the new Singleton
+jonathan
+Singleton was not found,
+Registering Singleton "jonathan" now.
+Enter a name for the new Singleton
+kaleb
+Singleton Already exists in Registry.
+kaleb was not registered.
+
+Enter a name for the new Singleton
+jonathan
+Singleton Already exists in Registry.
+jonathan was not registered.
+
+Enter a name for the new Singleton
+homework3
+Singleton was not found,
+Registering Singleton "homework3" now.
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+BUILD SUCCESSFUL (total time: 27 seconds)
