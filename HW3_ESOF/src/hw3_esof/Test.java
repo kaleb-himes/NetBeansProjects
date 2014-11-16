@@ -12,47 +12,12 @@ import java.util.Scanner;
  * @authors Kaleb, Jonathan
  */
 public class Test {
-
     public static void main(String[] args) throws Exception {
-        int number_2_create;
-        
-        number_2_create = getNumberToCreate();
-        
-        for (int i = 0; i < number_2_create; i++) {
-            /* If the singleton does not already exist lookup will
-             * register that singleton, otherwise will return existing
-             */
-            String newSingleton = getNameOfSingleton();
-            UniqueSingleton.registerSingleton(newSingleton);
-        }
-    }
-    public static int getNumberToCreate(){
-        int x = 0;
-        Scanner scan = new Scanner(System.in);
-        
-        System.out.println("Enter the number of Singletons to register:");
-        
-        try {
-        x = scan.nextInt();
-        }catch(java.util.InputMismatchException ex) {
-            System.out.println("Invalid input try again.");
-            getNumberToCreate();
-        };
-        return x;
-    }
-    
-    public static String getNameOfSingleton() {
-        String name = "";
-        Scanner scan = new Scanner(System.in);
-        
-        System.out.println("Enter a name for the new Singleton");
-        
-        try{
-            name = scan.nextLine();
-        }catch(java.util.InputMismatchException ex) {
-            System.out.println("Invalid name try again.");
-            getNameOfSingleton();
-        }
-        return name;
+                UniqueSingleton tempC = clemSingleton.getInstance();
+                UniqueSingleton tempK = kalebSingleton.getInstance();
+                UniqueSingleton tempJ = jonathanSingleton.getInstance();
+                System.out.println(tempC);
+                System.out.println(tempK);
+                System.out.println(tempJ);
     }
 }

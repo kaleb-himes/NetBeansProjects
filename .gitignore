@@ -215,5 +215,9 @@ pip-log.txt
 .mr.developer.cfg
 /Kaleb_Jacob_Angelica/nbproject/private/
 /Kaleb_Jacob_Angelica_GUI/nbproject/private/
+<<<<<<< Updated upstream
 /ESOF_HW3/nbproject/private/
+=======
+/HW3_ESOF/nbproject/private/
+>>>>>>> Stashed changes
 /Nathan_Kaleb_Monica/nbproject/private/

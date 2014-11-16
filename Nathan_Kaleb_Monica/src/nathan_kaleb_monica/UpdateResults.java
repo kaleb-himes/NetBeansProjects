@@ -7,6 +7,8 @@
 package nathan_kaleb_monica;
 
 import java.util.ArrayList;
+import java.sql.*;
+import simplemysql.*;
 
 /**
  *
@@ -15,6 +17,34 @@ import java.util.ArrayList;
 public class UpdateResults extends GUI {
     
     public static void update() {
+        
+        try
+    {
+      // Step 1: Load the JDBC driver. 
+      //csci440.cs.montana.edu ip: 153.90.127.188
+      //MySQL port: 3306
+
+
+//      String url = "www.csci440.cs.montana.edu/phpMyAdmin";
+      SimpleMySQL mysql = new SimpleMySQL();
+      mysql.connect("153.90.127.188:3306", "himes", "$HERdaBOMB!(&@11", "homework3");
+      
+            SimpleMySQLResult rs;
+ 
+            rs = mysql.Query("SELECT animal, count(animal) as cnt \n FROM"
+                                    + " `favorite_item` group by animal order "
+                                    + "by cnt desc");
+            while ( rs.next() ) {
+                String a = rs.getString("animal");
+                System.out.println(a);
+            }
+            rs.close();
+    }
+    catch (Exception e)
+    {
+      System.err.println("Got an exception! "); 
+      System.err.println(e.getMessage()); 
+    } 
         
         /* SQL Query to populate foundSongs */
         // int matches;
