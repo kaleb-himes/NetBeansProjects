@@ -395,6 +395,7 @@ public class calculatorUI extends javax.swing.JFrame {
 
     private void equalsbutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_equalsbutMouseClicked
         PostfixEvaluation.calculate();
+        input.setText("");
     }//GEN-LAST:event_equalsbutMouseClicked
 
     private void clearexistingMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearexistingMouseClicked
